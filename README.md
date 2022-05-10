@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-# Testes End to End - Ebac Shop
+# Testes API - EBAC
 ### Exercício para os alunos de Qualidade de software da EBAC 
-
-Ebac shop: http://lojaebac.ebaconline.art.br/
 
 ## Clonando e executando em sua máquina
 
@@ -17,15 +14,20 @@ Ebac shop: http://lojaebac.ebaconline.art.br/
 
 Via terminal, rode os seguintes comandos:
 ```  
-git clone https://github.com/EBAC-QE/testes-e2e-ebac-shop.git
+git clone https://github.com/EBAC-QE/testes-api-cy.git
 ```
 ```
-cd testes-e2e-ebac-shop
+cd testes-api-cy
 ```
 
 #### Para instalar as dependencias:
 ```
 npm install 
+```
+
+#### Para subir o servidor:
+```
+npm start
 ```
 
 #### Para executar em moodo Headlesss via console:
@@ -39,11 +41,17 @@ npx cypress open
 ```
 Após abrir o dasboard, clique na opção "Running integration tests" para rodar todos os testes.
 
+#### Para criar o relatório do mocha:
+```
+npm run cy:run
+```
+
+```
+npm run cy:report 
+```
 
 ### Bibliotecas de apoio:
 -Cypress: Framework de automação: https://cypress.io/
-
--Faker: Biblioteca para geração de massa de dados: https://www.npmjs.com/package/faker
 
 
 ### Bom exercício ;) 
@@ -53,6 +61,3 @@ Qualidade de software
 
 
 
-=======
-# teste-ebac-ui
->>>>>>> 8d49600c8e22aef53d3ff63c016908862e459b38
